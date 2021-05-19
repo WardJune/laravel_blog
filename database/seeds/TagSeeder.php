@@ -1,6 +1,6 @@
 <?php
 
-use App\Models\Tag;
+use App\Tag;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
