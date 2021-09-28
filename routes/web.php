@@ -31,3 +31,6 @@ Route::patch('/change-password', 'Account\AccountController@update')->name('acco
 Auth::routes(['verify' => true]);
 
 Route::get('/', 'HomeController@index')->name('home');
+
+Route::get('email', 'SendMailController@sendEmail');
+Route::get('email-queue', 'SendMailController@sendEmailQueues');
